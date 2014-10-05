@@ -48,7 +48,9 @@ Tang, T.-C., Plummer, A., Lai, C.-Y. & Chiesa, M. Nanoscale Hydrophilicity Studi
 
 ### **Elastic Modulus**:
 
-Run AveragesElasticity.m inside thde Code_2014 folder
-This generates statistics also for Elastic Modulus.  
+Run AveragesElasticity.m inside the Code_2014 folder
+This generates statistics also for Elastic Modulus.
+
+You will get a histogram and a box plot. 
 
 </font>
