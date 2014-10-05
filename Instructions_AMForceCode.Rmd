@@ -11,23 +11,42 @@ output: html_document
 
 # INSTRUCTIONS 
 
-1. Place all your txt files into ION folder inside Statistics folder. 
+##  Place all your txt files into ION folder inside Statistics folder. 
 
-2. Run the Main code:
+## Run the Main code:
 
 Code_2014 inside the Code_2014 in folder, i.e. Force_Dissipation_2013March17.m, and choose folder where text files
 are, i.e. the ION folder inside the Statistics folder.  
 
 * Note: To test the code leave the AFM_1.txt file in and choose the folder ION when you run the code. 
 
-3. GET Statistic (Conservative part) 
+## GET Statistic (Conservative part and optional) 
 
 - When the folders are done place folder from ION folder into folder inside it called 20131225 48h (historical reasons!)
  
 
-- Run the FiguresProcessing.m instide Statistics for conservative data in long range, i.e. Fadhesion, IncrFad, etc. 
+- Run the FiguresProcessing.m instide Statistics for conservative data in long range:
 
-4. For elastic Modulus:
+You will get a matrix, ResulrMat with three columns:
+
+* Fadhesion, i.e. related to chemical affinity and capilarity
+
+* Area under the curve, i.e. work required to separate tip from sample
+
+* The distance IncrFad, i.e. related to the height of water layers
+
+For details on, and definitions of, the meaning of the above parameters check:
+
+- [here](http://scitation.aip.org/content/aip/journal/jcp/139/8/10.1063/1.4819267?showFTTab=true&containerItemId=content/aip/journal/jcp)
+
+Amadei, C. A., Tang, T. C., Chiesa, M. & Santos, S. The aging of a surface and the evolution of conservative and dissipative nanoscale interactions. The Journal of Chemical Physics 139, 084708 (2013).
+
+- There is information on the meaning of the Area under the curve 
+[here](http://pubs.acs.org/doi/abs/10.1021/am504568w)  
+  
+Tang, T.-C., Plummer, A., Lai, C.-Y. & Chiesa, M. Nanoscale Hydrophilicity Studies of Gulf Parrotfish (Scarus persicus) Scales. Applied Materials & Interfaces 6, 16320-16326 (2014).
+
+### **Elastic Modulus**:
 
 Run AveragesElasticity.m inside thde Code_2014 folder
 This generates statistics also for Elastic Modulus.  
