@@ -18,7 +18,16 @@ output: html_document
 Code_2014 inside the Code_2014 in folder, i.e. Force_Dissipation_2013March17.m, and choose folder where text files
 are, i.e. the ION folder inside the Statistics folder.  
 
-* Note: To test the code leave the AFM_1.txt file in and choose the folder ION when you run the code. 
+* Note for **TEST**: 
+
+- To test the code leave the AFM_1.txt file in and choose the folder ION when you run the code. 
+
+- Choose k=40, Q=500 and f=350000. 
+
+- For Elastic modulus choose 1 otherwise 0. 
+
+- The smoothing factor should go from 0.01 to 0.3, i.e. less to more smoothing. 
+
 
 ## GET Statistic (Conservative part and optional) 
 
