@@ -15,8 +15,7 @@ output: html_document
 
 ## Run the Main code:
 
-Code_2014 inside the Code_2014 in folder, i.e. Force_Dissipation_2013March17.m, and choose folder where text files
-are, i.e. the ION folder inside the Statistics folder.  
+Code_2014 inside the Code_2014 in folder, i.e. Force_Dissipation_2014Oct19.m, and choose folder where text files are, i.e. the ION folder inside the Statistics folder.  
 
 * Note for **TEST**: 
 
@@ -51,9 +50,20 @@ For details on, and definitions of, the meaning of the above parameters check:
 Amadei, C. A., Tang, T. C., Chiesa, M. & Santos, S. The aging of a surface and the evolution of conservative and dissipative nanoscale interactions. The Journal of Chemical Physics 139, 084708 (2013).
 
 - There is information on the meaning of the Area under the curve 
-[here](http://pubs.acs.org/doi/abs/10.1021/am504568w)  
+[here](http://pubs.acs.org/doi/abs/10.1021/jp411125n)  
   
-Tang, T.-C., Plummer, A., Lai, C.-Y. & Chiesa, M. Nanoscale Hydrophilicity Studies of Gulf Parrotfish (Scarus persicus) Scales. Applied Materials & Interfaces 6, 16320-16326 (2014).
+  
+Tang, T.-C., Amadei, C. A., Thomson, N. H. & Chiesa, M. Ion Exchange and DNA Molecular Dip Sticks: Studying the Nanoscale Surface Wetting of Muscovite Mica. Journal of Physical Chemistry C 118, 4695-4701 (2014).
+
+### Extra information on Energy dissipation, Virial and force of Adhesion
+
+In order to see what the mean and standard deiation of the data for the adhesion force, the energy dissipation and the virial (maxima) is run the
+file:
+
+AveragesVirial_Edis_Etc.m
+
+The data is stored in the variables **Adhesion_M**, **Edis_crop_M**, 
+and **Virial_M**
 
 ### **Elastic Modulus**:
 
