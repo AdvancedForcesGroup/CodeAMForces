@@ -57,13 +57,12 @@ Tang, T.-C., Amadei, C. A., Thomson, N. H. & Chiesa, M. Ion Exchange and DNA Mol
 
 ### Extra information on Energy dissipation, Virial and force of Adhesion
 
-In order to see what the mean and standard deiation of the data for the adhesion force, the energy dissipation and the virial (maxima) is run the
-file:
+In order to see what the mean and standard deiation of the data for the adhesion force, the energy dissipation (maxima),  virial (maxima), the 
+Virial (Joules) and Energy dissipated in eV coinciding with adhesion force location is run the file:
 
 AveragesVirial_Edis_Etc.m
 
-The data is stored in the variables **Adhesion_M**, **Edis_crop_M**, 
-and **Virial_M**
+The data is stored in the variables **Adhesion_M**, **Edis_crop_M**,  **Virial_M**, **Virial_adhesion_M** and **Edis_adhesion_M**
 
 ### **Elastic Modulus**:
 
